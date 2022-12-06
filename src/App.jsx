@@ -9,17 +9,15 @@ import Shop from "./pages/Shop";
 
 function App() {
   return (
-    <div className="bg-green-900">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/pages/About" element={<About />} />
-          <Route path="/pages/Repairs" element={<Repairs />} />
-          <Route path="/pages/Shop" element={<Shop />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/pages/About" element={<About />} />
+        <Route path="/pages/Repairs" element={<Repairs />} />
+        <Route path="/pages/Shop" element={<Shop />} />
+      </Routes>
+    </Router>
   );
 }
 
