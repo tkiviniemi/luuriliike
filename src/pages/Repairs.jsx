@@ -1,13 +1,21 @@
 // Page for contacting about repairs
-// Few preset repairs that you can select from and a custom contact field
+
+import RepairForm from "../components/RepairForm";
+
 const Repairs = () => {
   return (
     <>
-      <h1>Repairs</h1>
-      <p>Page for contacting about repairs</p>
-      <p>
-        Few preset repairs that you can select from and a custom contact field
-      </p>
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
+      <RepairForm />
     </>
   );
 };
