@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-emerald-600 p-4 w-full">
+    <footer className="bg-emerald-600 p-4 w-full shadow-inner">
       <div className="flex justify-evenly text-zinc-600">
         <socials className="flex flex-col">
           <a href="https://www.facebook.com/">
@@ -19,7 +19,7 @@ const Footer = () => {
           <p className=" ">33500 Tampere</p>
         </div>
         <div>
-          <p className="">+358 50 123 4567</p>
+          <p className="">+358 01 234 567</p>
           <p className=" ">email@luuriliike.fi</p>
         </div>
       </div>

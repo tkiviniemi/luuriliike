@@ -4,7 +4,7 @@ import RepairForm from "../components/RepairForm";
 
 const Repairs = () => {
   return (
-    <>
+    <div>
       <RepairForm />
       <RepairForm />
       <RepairForm />
@@ -16,7 +16,7 @@ const Repairs = () => {
       <RepairForm />
       <RepairForm />
       <RepairForm />
-    </>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 items-center bg-emerald-600 p-4">
+    <nav className="sticky top-0 z-50 items-center bg-emerald-600 p-4 shadow-lg">
       <div className="w-full flex text-zinc-600">
         <div className="mr-6">
           <Link to="/" className="hover:text-stone-200 font-semibold text-xl">
