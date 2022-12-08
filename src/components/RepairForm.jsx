@@ -29,28 +29,70 @@ const RepairForm = (props) => {
   return (
     <div className="flex flex-col items-center">
       <p>Page for contacting about repairs</p>
-      <form className="flex flex-col gap-2" onSubmit={submitHandler}>
-        <label>
-          Name:
-          <input type="text" ref={nameRef} />
-        </label>
-        <label>
-          Email:
-          <input type="text" ref={emailRef} />
-        </label>
-        <label>
-          Phone number:
-          <input type="text" ref={phoneNumberRef} />
-        </label>
-        <label>
-          Device:
-          <input type="text" ref={deviceRef} />
-        </label>
-        <label>
-          Description:
-          <textarea rows="4" ref={descriptionRef} />
-        </label>
-        <button className="">Submit</button>
+      <form className="flex flex-col gap-2 " onSubmit={submitHandler}>
+        <div className="1">
+          <label className="block text-zinc-600 text-md font-bold mb-2">
+            Name:
+          </label>
+          <input
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            id="username"
+            type="text"
+            placeholder="Username"
+            ref={nameRef}
+          />
+        </div>
+        <div className="mb-1">
+          <label className="block text-zinc-600 text-md font-bold mb-2">
+            Email:
+          </label>
+          <input
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            id="email"
+            type="text"
+            placeholder="Email"
+            ref={emailRef}
+          />
+        </div>
+        <div className="mb-1">
+          <label className="block text-zinc-600 text-md font-bold mb-2">
+            Phone Number:
+          </label>
+          <input
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            id="phoneNumber"
+            type="text"
+            placeholder="Phone Number"
+            ref={phoneNumberRef}
+          />
+        </div>
+        <div className="mb-1">
+          <label className="block text-zinc-600 text-md font-bold mb-2">
+            Device:
+          </label>
+          <input
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            id="device"
+            type="text"
+            placeholder="Device"
+            ref={deviceRef}
+          />
+        </div>
+        <div>
+          <label className="block text-zinc-600 text-md font-bold mb-2">
+            Description:
+          </label>
+          <textarea
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            id="description"
+            rows="4"
+            placeholder="Description"
+            ref={descriptionRef}
+          />
+        </div>
+        <button className="bg-emerald-600 shadow-md rounded p-1 font-bold">
+          Submit
+        </button>
       </form>
     </div>
   );
