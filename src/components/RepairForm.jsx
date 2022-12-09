@@ -28,7 +28,9 @@ const RepairForm = (props) => {
 
   return (
     <div className="flex flex-col items-center">
-      <p className="text-zinc-600 font-bold text-lg">Consult about a repair!</p>
+      <p className="text-zinc-600 font-bold text-lg">
+        Consult us about a repair!
+      </p>
       <form className="flex flex-col gap-2 " onSubmit={submitHandler}>
         <div className="1">
           <label className="block text-zinc-600 text-md font-bold mb-2">
@@ -36,9 +38,9 @@ const RepairForm = (props) => {
           </label>
           <input
             className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
-            id="username"
+            id="name"
             type="text"
-            placeholder="Username"
+            placeholder="Name"
             ref={nameRef}
           />
         </div>
@@ -85,7 +87,7 @@ const RepairForm = (props) => {
           <textarea
             className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
             id="description"
-            rows="4"
+            rows="3"
             placeholder="Description"
             ref={descriptionRef}
           />

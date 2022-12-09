@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-emerald-600 p-4 w-full shadow-inner">
+    <footer className="relative bg-emerald-600 p-4 w-full shadow-inner">
       <div className="flex justify-evenly text-zinc-600 text-center">
         <div className="flex flex-col">
           <a href="https://www.facebook.com/">
