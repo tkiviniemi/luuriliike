@@ -1,6 +1,6 @@
 const Landing = () => {
   return (
-    <div className="h-screen">
+    <div className="">
       <h1>Landing Page</h1>
     </div>
   );

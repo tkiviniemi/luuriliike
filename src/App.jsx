@@ -11,14 +11,16 @@ import Repairs from "./pages/Repairs";
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/pages/About" element={<About />} />
-          <Route path="/pages/Repairs" element={<Repairs />} />
-        </Routes>
-      </Router>
+      <div name="wrapper" className="h-screen">
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/pages/About" element={<About />} />
+            <Route path="/pages/Repairs" element={<Repairs />} />
+          </Routes>
+        </Router>
+      </div>
       <Footer />
     </>
   );
