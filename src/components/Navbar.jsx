@@ -17,9 +17,6 @@ const Navbar = () => {
             <Link to="../pages/Repairs" className="hover:text-stone-200 mr-8">
               Repairs
             </Link>
-            <Link to="../pages/Shop" className="hover:text-stone-200">
-              Shop
-            </Link>
           </div>
         </div>
       </div>
