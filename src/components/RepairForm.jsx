@@ -28,14 +28,14 @@ const RepairForm = (props) => {
 
   return (
     <div className="flex flex-col items-center">
-      <p>Page for contacting about repairs</p>
+      <p className="text-zinc-600 font-bold text-lg">Consult about a repair!</p>
       <form className="flex flex-col gap-2 " onSubmit={submitHandler}>
         <div className="1">
           <label className="block text-zinc-600 text-md font-bold mb-2">
             Name:
           </label>
           <input
-            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
             id="username"
             type="text"
             placeholder="Username"
@@ -47,7 +47,7 @@ const RepairForm = (props) => {
             Email:
           </label>
           <input
-            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
             id="email"
             type="text"
             placeholder="Email"
@@ -59,7 +59,7 @@ const RepairForm = (props) => {
             Phone Number:
           </label>
           <input
-            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
             id="phoneNumber"
             type="text"
             placeholder="Phone Number"
@@ -71,7 +71,7 @@ const RepairForm = (props) => {
             Device:
           </label>
           <input
-            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
             id="device"
             type="text"
             placeholder="Device"
@@ -83,7 +83,7 @@ const RepairForm = (props) => {
             Description:
           </label>
           <textarea
-            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-none focus:shadow-outline"
+            className="shadow border rounded w-full py-2 px-3 text-zinc-600 focus:outline-black focus:shadow-outline"
             id="description"
             rows="4"
             placeholder="Description"
