@@ -59,7 +59,7 @@ const Repairs = () => {
       <div className="flex justify-evenly">
         <Card
           image={
-            "https://as1.ftcdn.net/v2/jpg/02/44/67/96/1000_F_244679651_1ZFNvsYDKuTOlgSBFasEF2CguYFVAvQ1.jpg"
+            "https://as2.ftcdn.net/v2/jpg/01/07/50/01/1000_F_107500164_rwndmChhmlkuzaLOdorIzSwCxLNTjg2R.jpg"
           }
           title={"Repairs"}
           description={
@@ -69,11 +69,10 @@ const Repairs = () => {
 
         <RepairForm onRequestSubmit={repairRequestHandler} />
       </div>
-      <div className="flex justify-evenly m-8">
-        <Collapsible
-          children={<QueueList data={repairList} />}
-          title={"Queue"}
-        />
+      <div className="flex w-full justify-center">
+        <div className="m-8 w-1/2">
+          <Collapsible data={<QueueList data={repairList} />} title={"Queue"} />
+        </div>
       </div>
     </div>
   );

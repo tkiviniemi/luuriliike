@@ -12,7 +12,7 @@ const Collapsible = (props) => {
         {props.title}
         <a className="mr-2"> {isOpen ? "▲" : "▼"}</a>
       </button>
-      {isOpen && props.children}
+      {isOpen && props.data}
     </div>
   );
 };
