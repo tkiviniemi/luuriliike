@@ -1,7 +1,8 @@
 # Luuriliike
 
-> The project is abandoned indefinitely
-> Databases in firebase have expired so the form submitting doesn't work at the moment
+> The project is abandoned indefinitely.
+> 
+> Databases in firebase have expired so the form submitting/fetching doesn't work at the moment.
 
 A simple frontend project consisting of a landing page for an imaginary phone repair company. 
 
