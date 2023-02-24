@@ -8,7 +8,7 @@
 
 A simple frontend project consisting of a landing page for an imaginary phone repair company. 
 
-Deployed to firebase: <https://luuriliike.web.app/pages/Repairs>
+Deployed to firebase: <https://luuriliike.web.app>
 
 ## Techologies
 
